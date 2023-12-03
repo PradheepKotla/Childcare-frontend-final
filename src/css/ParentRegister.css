@@ -1,0 +1,20 @@
+/* .parentregister{
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.parentregister-main{
+	min-height: 60vh;
+	width: 40vw;
+	color: #232946;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	box-shadow: var(--main-shadow);
+} */

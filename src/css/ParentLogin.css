@@ -1,0 +1,128 @@
+.parentlogin{
+	min-height: 90vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px;
+}
+.parentlogin-main{
+	min-height: 60vh;
+	width: 40vw;
+	color: #232946;
+	background-color: white;
+	max-width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	box-shadow: var(--main-shadow);
+}
+.parentlogin-main form{
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	flex-direction: column;
+	gap: 30px;
+	width: 80%;
+}
+.parentlogin-main form input{
+	height: 5rem;
+	width: 100%;
+	outline: none;
+	font-size: 1.8rem;
+	text-indent: 3px;
+	font-family: var(--main-font-text);
+}
+.parentlogin-main form select{
+	width: 100%;
+	font-size: 1.8rem;
+	outline: none;
+	font-family: var(--main-font-text);
+}
+.parentlogin-main form label{
+	width: 100%;
+	font-family: var(--main-font-text);
+	font-size: 2rem;
+}
+.section-child{
+	background-color: var(--main-color);
+	width: 100%;
+	color:#232946;
+	border: 1px solid #232946;
+	padding: 5px 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.section-child-button button{
+	background-color:white;
+	color:#232946;
+	border: 1px solid #232946;
+	padding: 5px 20px;
+	font-family: var(--main-font-text);
+	font-size: 2rem;
+	margin: 0px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 200ms;
+}
+.section-child-button button:hover{
+	color: black;
+	transform: translateY(-2px);
+}
+.parentlogin-main form button{
+	background-color:var(--main-color);
+	color:#232946;
+	border: 1px solid #232946;
+	padding: 5px 20px;
+	font-family: var(--main-font-text);
+	font-size: 2rem;
+	margin: 0px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 200ms;
+}
+.parentlogin-main form button:hover{
+	color: black;
+	transform: translateY(-2px);
+}
+.dashboard-buttons button{
+	background-color:var(--main-color);
+	color:#232946;
+	border: 1px solid #232946;
+	padding: 5px 20px;
+	font-family: var(--main-font-text);
+	font-size: 2rem;
+	margin: 0px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 200ms;
+}
+.dashboard-buttons button:hover{
+	color: black;
+	transform: translateY(-2px);
+}
+@media (max-width: 1536px) {
+}
+@media (max-width: 1280px) {
+	.parentlogin-main{
+		width: 70vw;
+	}
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+	.parentlogin-main{
+		width: 90vw;
+	}
+}
+@media (max-width: 640px) {
+}
+@media (max-width: 475px) {
+}
